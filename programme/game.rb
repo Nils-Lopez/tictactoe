@@ -1,4 +1,3 @@
-
 class Game
   attr_accessor :players, :board
 
@@ -63,7 +62,7 @@ class Game
   def turn(i)
     # Affiche le plateau, demande au joueur il joue quoi, passe au joueur suivant si la partie n'est pas finie
     n = i % 2
-    puts "#{@players[i % 2].firstname}, sur quelle case souhaites-tu jouer (entre 1 et 9) ?"
+    puts "#{@players[n].firstname}, sur quelle case souhaites-tu jouer (entre 1 et 9) ?"
     choice = gets.chomp.to_i
 
     while !choice.between?(1, 9) || (@board.already_played?(choice) == true)
