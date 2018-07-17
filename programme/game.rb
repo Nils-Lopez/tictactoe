@@ -51,9 +51,9 @@ class Game
           puts '╦ ╦ ╦ ╔╗╔ ╔╗╔ ╔═╗ ╦═╗  │ '
           puts '║║║ ║ ║║║ ║║║ ║╣  ╠╦╝  │ '
           puts '╚╩╝ ╩ ╝╚╝ ╝╚╝ ╚═╝ ╩╚═  o '
-       end
+        end
         exit
-       end
+      end
     end
     puts '╔╦╗╦╔═╗  │'
     puts ' ║ ║║╣   │'
@@ -75,7 +75,7 @@ class Game
         puts "#{@players[n].firstname}, sur quelle case souhaites-tu jouer (entre 1 et 9) ?"
         choice = gets.chomp.to_i
       end
-   end
+    end
 
     @board.play(choice, @players[n].type)
     @board.print_board

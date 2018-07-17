@@ -34,7 +34,7 @@ class Board
     puts
   end
 
-  
+
   def play(choice, result)
      # Change la BoardCase jouée en fonction de la valeur du joueur (X, ou O)
     @boardcases[choice - 1].value = result
