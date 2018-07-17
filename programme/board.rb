@@ -16,7 +16,7 @@ class Board
     y = ' ' * 14 + barre + ' ' * 7 + barre
     z = ' ' * 6 + '_'.green * 26
 
-    puts
+    puts " \n\n "
     puts y
     puts ' ' * 10 + @boardcases[0].value + x + barre + x + @boardcases[1].value + x + barre + x + @boardcases[2].value
     puts y

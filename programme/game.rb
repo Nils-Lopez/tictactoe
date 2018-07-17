@@ -3,23 +3,20 @@ class Game
 
   def initialize
     # Créé 2 joueurs, créé un board
-    puts
-    puts    '   ╦  ╔═╗╔╦╗╗╔═╗  ╔═╗╦  ╔═╗╦ ╦ '
-    puts    '   ║  ║╣  ║  ╚═╗  ╠═╝║  ╠═╣╚╦╝ '
-    puts    '   ╩═╝╚═╝ ╩  ╚═╝  ╩  ╩═╝╩ ╩ ╩  '
-    puts    ' ╔╦╗╦╔═╗   ╔╦╗╔═╗╔═╗   ╔╦╗╔═╗╔═╗  │ │ '
-    puts    '  ║ ║║      ║ ╠═╣║      ║ ║ ║║╣   │ │ '
-    puts    '  ╩ ╩╚═╝    ╩ ╩ ╩╚═╝    ╩ ╚═╝╚═╝  o o '
-    puts
-    puts
+    puts "
+    ╦  ╔═╗╔╦╗╗╔═╗  ╔═╗╦  ╔═╗╦ ╦
+    ║  ║╣  ║  ╚═╗  ╠═╝║  ╠═╣╚╦╝
+    ╩═╝╚═╝ ╩  ╚═╝  ╩  ╩═╝╩ ╩ ╩
+    ╔╦╗╦╔═╗   ╔╦╗╔═╗╔═╗   ╔╦╗╔═╗╔═╗  │ │
+     ║ ║║      ║ ╠═╣║      ║ ║ ║║╣   │ │
+     ╩ ╩╚═╝    ╩ ╩ ╩╚═╝    ╩ ╚═╝╚═╝  o o
+    \n\n"
 
     puts 'Quel est le nom du premier joueur ?'
     print '> '
     player1_firstname = gets.chomp
     player1 = Player.new(player1_firstname, 'X'.blue.bold)
-    puts
-    puts '_' * 38
-    puts
+    puts '_' * 37
     puts
     puts 'Quel est le nom du deuxième joueur ?'
     print '> '
@@ -38,25 +35,26 @@ class Game
       else
         if @board.victory? == 1
           puts "#{@players[0].firstname} is the "
-          puts
-          puts '╦ ╦ ╦ ╔╗╔ ╔╗╔ ╔═╗ ╦═╗  │ '
-          puts '║║║ ║ ║║║ ║║║ ║╣  ╠╦╝  │ '
-          puts '╚╩╝ ╩ ╝╚╝ ╝╚╝ ╚═╝ ╩╚═  o '
+          puts "
+      ╦ ╦ ╦ ╔╗╔ ╔╗╔ ╔═╗ ╦═╗  │
+      ║║║ ║ ║║║ ║║║ ║╣  ╠╦╝  │
+      ╚╩╝ ╩ ╝╚╝ ╝╚╝ ╚═╝ ╩╚═  o "
 
 
         else
           puts "#{@players[1].firstname} is the "
-          puts
-          puts '╦ ╦ ╦ ╔╗╔ ╔╗╔ ╔═╗ ╦═╗  │ '
-          puts '║║║ ║ ║║║ ║║║ ║╣  ╠╦╝  │ '
-          puts '╚╩╝ ╩ ╝╚╝ ╝╚╝ ╚═╝ ╩╚═  o '
+          puts "
+      ╦ ╦ ╦ ╔╗╔ ╔╗╔ ╔═╗ ╦═╗  │
+      ║║║ ║ ║║║ ║║║ ║╣  ╠╦╝  │
+      ╚╩╝ ╩ ╝╚╝ ╝╚╝ ╚═╝ ╩╚═  o "
         end
         exit
       end
     end
-    puts '╔╦╗╦╔═╗  │'
-    puts ' ║ ║║╣   │'
-    puts ' ╩ ╩╚═╝  o'
+    puts "
+      ╔╦╗╦╔═╗  │
+       ║ ║║╣   │
+       ╩ ╩╚═╝  o "
   end
 
   def turn(i)
