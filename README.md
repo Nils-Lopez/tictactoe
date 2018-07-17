@@ -1,12 +1,12 @@
-# Projet THP du 17 juillet 2018 
+# Jeu tic tac toe - projet THP du 17 juillet 2018 
 
-## IMPORTANT ! 
+## :red_circle: IMPORTANT ! 
 
 Après avoir cloné/téléchargé le repo il faut 
 - Faire un **bundle install**
 - Exécuter le fichier **programme/app.rb**
 
-## Contenu du repo 
+## :video_game: Contenu du repo 
 
 #### Un dossier programme contenant 5 fichiers 
 
@@ -23,6 +23,6 @@ Il affiche la grille et la valeur de chaque case (de 1 à 9).
 A tour de rôle les joueurs choisissent une case. 
 Il n'est pas possible de joueur sur une case déjà remplie ou de jouer en tapant autre chose qu'un chiffre de 1 à 9. 
 
-## La team 
+## :computer: La team 
 
-Ce programme est made in Strasbourg, avec amour ! Bonne correction les amis :-) 
+Ce programme est made in Strasbourg, avec amour ! Bonne correction les amis :kissing_heart:
