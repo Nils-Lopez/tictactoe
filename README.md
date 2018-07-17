@@ -8,7 +8,7 @@ Après avoir cloné/téléchargé le repo il faut
 
 ## Contenu du repo 
 
-### Un dossier programme contenant 5 fichiers 
+#### Un dossier programme contenant 5 fichiers 
 
 1. board.rb contenant la classe Board 
 2. boardcase.rb contenant la classe BoardCases 
@@ -16,7 +16,7 @@ Après avoir cloné/téléchargé le repo il faut
 4. game.rb contenant la classe Game
 5. app.rb, le fichier à exécuter, appelant les autres fichiers et initialisant un nouveau jeu 
 
-### Le jeu 
+#### Le jeu 
 
 Jeu classique du morpion, pour deux joueurs. Le programme demande le nom de chaque joueur et lui attribue un symbole (X/O). 
 Il affiche la grille et la valeur de chaque case (de 1 à 9).
