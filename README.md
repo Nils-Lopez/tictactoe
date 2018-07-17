@@ -25,4 +25,5 @@ Il n'est pas possible de joueur sur une case déjà remplie ou de jouer en tapan
 
 ## :computer: La team 
 
-Ce programme est made in Strasbourg, avec amour ! Bonne correction les amis :kissing_heart:
+Ce programme est made in Strasbourg by Hugo PAYET, Samaneh VAEZI et Soraya FRUCTUOSO.
+Fait avec amour ! Bonne correction les amis :kissing_heart:
