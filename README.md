@@ -1,4 +1,4 @@
-# ** Jeu tic tac toe - projet THP du 17 juillet 2018 **
+# Jeu tic tac toe - projet THP du 17 juillet 2018 
 
 
 ## :red_circle: IMPORTANT ! 
